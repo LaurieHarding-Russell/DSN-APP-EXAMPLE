@@ -30,19 +30,19 @@ protected:
 	Gtk::Entry ipAddressE;
 	Gtk::Label nameL;
 	Gtk::Entry nameE;
-	Gtk::Button connectB; 
+	Gtk::Button connectB;
 	// ********* message **********
 	Gtk::ScrolledWindow messageScroll;
 	Gtk::TextView conversation;
 	Gtk::Entry messageE;
 	Gtk::Button sendB;
-	// ******* User Page ************ 
+	// ******* User Page ************
 	std::string userPhotoName;
-	Gtk::Label userName;	// 
-	Gtk::Image userPhoto; // 
+	Gtk::Label userName;	//
+	Gtk::Image userPhoto; //
 	Gtk::ScrolledWindow feedScroll;
 	Gtk::Box feedFrame;
-	Gtk::Label otherStuff; // 
+	Gtk::Label otherStuff; //
 
  private:
 	Chat* client;
