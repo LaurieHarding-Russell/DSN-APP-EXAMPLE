@@ -3,8 +3,8 @@
 
 #include <list>
 // chat
-#include "DSNLib/chatServer.h"
-#include "DSNLib/chat.h"
+#include "DSNApiLibrary/chatServer.h"
+#include "DSNApiLibrary/chat.h"
 #include <thread>
 #include <ctime>
 
